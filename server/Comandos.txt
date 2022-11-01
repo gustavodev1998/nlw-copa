@@ -1,0 +1,17 @@
+npm init -y
+npm i typescript -D
+npx tsc --init ( Cria arquivo tsconfig.json )
+npm i fastify ( Similar ao express )
+npm i tsx -D ( Compila codigo ts em js e executa, add no package.json o comando de exec, opção watch evita recompilar cod com atualizações e no terminal faço npm run dev  )
+
+
+// PRISMA
+npm i prisma -D 
+npm i @prisma/client
+npx prisma init --datasource-provider SQLite
+npx prisma migrate dev (após criar tabela exemp: create table pools)
+npx prisma studio ( ver bd pelo browser )
+npm i prisma-erd-generator @mermaid-js/mermaid-cli -D ( Crio generator no schema.prisma )
+npx prisma generate
+
+npm i @fastify/cors

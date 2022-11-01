@@ -1,0 +1,9 @@
+Pra configurar typescript, trocar app.tsx e rodar o comando abaixo, o proprio cli indicara pra instalar ts
+
+npx expo start
+npm config set legacy-peer-deps true
+npm install native-base
+npx expo install react-native-svg@12.1.1
+npx expo install react-native-safe-area-context@3.3.2
+
+npx expo install expo-font @expo-google-fonts/inter Instalar fontes
