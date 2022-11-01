@@ -15,3 +15,8 @@ npm i prisma-erd-generator @mermaid-js/mermaid-cli -D ( Crio generator no schema
 npx prisma generate
 
 npm i @fastify/cors
+
+
+
+npx prisma migrate dev ( Para atualizar as estruturas da BD)
+criar um timestamp new Date().toISOString() no console do browser
