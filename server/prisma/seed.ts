@@ -28,7 +28,7 @@ async function main() {
   // Sem palpite
   await prisma.game.create({
     data: {
-      date: "2022-11-01T19:48:38.520Z",
+      date: "2022-11-02T12:00:00.201Z",
       firstTeamCountryCode: "DE",
       secondTeamCountryCode: "BR",
     },
@@ -37,7 +37,7 @@ async function main() {
   // Com palpite
   await prisma.game.create({
     data: {
-      date: "2022-13-01T19:49:38.520Z",
+      date: "2022-12-02T12:00:00.201Z",
       firstTeamCountryCode: "BR",
       secondTeamCountryCode: "AR",
 

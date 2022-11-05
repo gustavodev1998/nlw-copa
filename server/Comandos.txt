@@ -20,3 +20,16 @@ npm i @fastify/cors
 
 npx prisma migrate dev ( Para atualizar as estruturas da BD)
 criar um timestamp new Date().toISOString() no console do browser
+npx prisma migrate reset
+
+
+// Biblioteca de Validação
+ npm i zod        
+
+ // Biblioteca de IDS
+ npm i short-unique-id
+
+
+
+ // TOKEN 
+  npm i @fastify/jwt

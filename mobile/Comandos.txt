@@ -7,3 +7,37 @@ npx expo install react-native-svg@12.1.1
 npx expo install react-native-safe-area-context@3.3.2
 
 npx expo install expo-font @expo-google-fonts/inter Instalar fontes
+
+
+// PARA SVGS COMO COMPONENTES
+npm i react-native-svg-transformer & metro-config.js
+
+// OAUTH
+npx expo install expo-auth-session expo-random
+npx expo install expo-web-browser
+
+// PHOSPOR
+npm install --save phosphor-react-native
+
+
+// NAVIGATOR
+npm install @react-navigation/native
+npx expo install react-native-screens react-native-safe-area-context
+
+npm install @react-navigation/bottom-tabs
+
+// AXIOS
+ npm i axios
+
+
+// ISO CODES PAISES
+npm i country-list
+npm i --save-dev @types/country-list
+npm i react-native-country-flag
+
+// DATA
+npm i dayjs
+
+// Variavel Ambiente
+npm i dotenv babel-plugin-inline-dotenv
+Adicionar no babel.config.js  plugins: ['inline-dotenv']
