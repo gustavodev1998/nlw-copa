@@ -5,7 +5,7 @@ This project was developed in the Next Level Week from Rocketseat. A whole week 
 NlwCopa is a specific theme that aims to connect people who wish to make World Cup game bets with friends.
 
 <br><div align="center">
-<img alt="BolãoCopa" title="#copa" src="" width="1200px" />
+<img alt="BolãoCopa" title="#copa" src="https://github.com/gustavodev1998/nlw-copa/blob/main/web/public/web-layout.png?raw=true" width="1200px" />
 
 </div>
 
